@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT"
+[[mods]]
+modId="adamsmod"
+version="${file.jarVersion}" 
+displayName="Adams Mod" 
+logoFile="examplemod.png" 
+credits="Created by Adam Chirico"
+description='''
+Mod by Adam Chirico.
+'''
+
+[[dependencies.adamsmod]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[35,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.adamsmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"

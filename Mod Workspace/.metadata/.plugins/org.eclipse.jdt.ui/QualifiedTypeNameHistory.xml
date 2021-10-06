@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
+<fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
+<fullyQualifiedTypeName name="com.adam.adamsmod.core.init.ItemInit"/>
+</qualifiedTypeNameHistroy>
