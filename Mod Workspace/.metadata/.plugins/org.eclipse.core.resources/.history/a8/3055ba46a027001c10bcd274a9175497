@@ -15,7 +15,7 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
 	
 	public static final RegistryObject<Item> USA_AXE = ITEMS.register("usa_axe",
-			() -> new Item(new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
 	
 	public static final RegistryObject<Item> USA_PICKAXE = ITEMS.register("usa_pickaxe",
 			() -> new Item(new Item.Properties().group(ItemGroup.TOOLS)));
