@@ -23,6 +23,6 @@ public class ItemInit {
 	public static final RegistryObject<Item> USA_SHOVEL = ITEMS.register("usa_shovel",
 			() -> new Item(new Item.Properties().group(ItemGroup.TOOLS)));
 	
-	public static final RegistryObject<Item> USA_HOE = ITEMS.register("usa_hoe",
+	public static final RegistryObject<Item> USA_HOE = ITEMS.register("usa_sword",
 			() -> new Item(new Item.Properties().group(ItemGroup.TOOLS)));
 }
