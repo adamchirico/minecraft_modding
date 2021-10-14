@@ -11,7 +11,7 @@ Mod Setup Tutorial: [https://www.youtube.com/watch?v=benUZaQU-6Y](https://www.yo
 NOTE: Minecraft Modding is very version specific (I found out the hard way), so be sure to use the exact versions of software mentioned in the video.
 
 ## Documentation
-All versions of the mod can be viewed at [https://github.com/adamchirico/minecraft_modding/](https://github.com/adamchirico/minecraft_modding/) under the `Commits` section.
+All versions of the mod can be viewed at [https://github.com/adamchirico/minecraft_modding](https://github.com/adamchirico/minecraft_modding) under the `Commits` section.
 
 ## Credits
 **Adam Chirico**: Added in all new mod features and corresponding pixel art.
