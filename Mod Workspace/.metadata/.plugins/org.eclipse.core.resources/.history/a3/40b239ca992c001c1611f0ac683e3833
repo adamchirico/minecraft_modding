@@ -1,0 +1,42 @@
+package com.adam.adamsmod.common.material;
+
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.crafting.Ingredient;
+
+public enum USAToolMaterial implements IItemTier {
+
+	private final int harvestLevel;
+	private final int maxUses;
+	private final int efficiency;
+	private final int attackDamage;
+	private final int enchantability;
+	private final Ingredient repairMaterial;
+	
+	
+	@Override
+	public int getMaxUses() {
+		return this.maxUses;
+	}
+	@Override
+	public float getEfficiency() {
+		return this.efficiency;
+	}
+	@Override
+	public float getAttackDamage() {
+		return this.attackDamage;
+	}
+	@Override
+	public int getHarvestLevel() {
+		return this.harvestLevel;
+	}
+	@Override
+	public int getEnchantability() {
+		return this.enchantability;
+	}
+	@Override
+	public Ingredient getRepairMaterial() {
+		return this.repairMaterial;
+	}
+
+	
+}

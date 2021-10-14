@@ -6,4 +6,11 @@
 <fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
 <fullyQualifiedTypeName name="com.adam.adamsmod.core.init.ItemInit"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="net.minecraft.item.SwordItem"/>
+<fullyQualifiedTypeName name="com.adam.adamsmod.common.material.USAToolMaterial"/>
+<fullyQualifiedTypeName name="net.minecraft.item.AxeItem"/>
+<fullyQualifiedTypeName name="net.minecraft.item.PickaxeItem"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ShovelItem"/>
+<fullyQualifiedTypeName name="net.minecraft.item.HoeItem"/>
 </qualifiedTypeNameHistroy>

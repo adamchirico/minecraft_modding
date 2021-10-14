@@ -1,0 +1,5 @@
+package com.adam.adamsmod.common.material;
+
+public class CustomToolMaterial {
+
+}
