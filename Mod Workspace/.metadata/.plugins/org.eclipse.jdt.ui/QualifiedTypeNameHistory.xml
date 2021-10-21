@@ -2,9 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
 <fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
 <fullyQualifiedTypeName name="com.adam.adamsmod.core.init.ItemInit"/>
 <fullyQualifiedTypeName name="java.util.function.Supplier"/>
 <fullyQualifiedTypeName name="net.minecraft.item.SwordItem"/>
@@ -13,4 +10,17 @@
 <fullyQualifiedTypeName name="net.minecraft.item.PickaxeItem"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ShovelItem"/>
 <fullyQualifiedTypeName name="net.minecraft.item.HoeItem"/>
+<fullyQualifiedTypeName name="net.minecraft.block.AbstractBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.block.AbstractBlock.Properties"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.MaterialColor"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.ToolType"/>
+<fullyQualifiedTypeName name="net.minecraft.block.SoundType"/>
+<fullyQualifiedTypeName name="com.adam.adamsmod.core.init.BlockInit"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.RegistryObject"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
+<fullyQualifiedTypeName name="net.minecraft.item.BlockItem"/>
 </qualifiedTypeNameHistroy>
