@@ -7,11 +7,11 @@ import net.minecraft.item.crafting.Ingredient;
 
 public enum USAToolMaterial implements IItemTier {
 
-	USA_SWORD(4, 4000, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
-	USA_AXE(4, 4000, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
-	USA_PICKAXE(4, 4000, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
-	USA_SHOVEL(4, 4000, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
-	USA_HOE(4, 4000, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get()));
+	USA_SWORD(0, 1776, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
+	USA_AXE(0, 1776, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
+	USA_PICKAXE(4, 1776, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
+	USA_SHOVEL(0, 1776, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get())),
+	USA_HOE(0, 1776, 15f, 2f, 17, () -> Ingredient.fromItems(ItemInit.USA_INGOT.get()));
 	
 	private final int harvestLevel;
 	private final int maxUses;
