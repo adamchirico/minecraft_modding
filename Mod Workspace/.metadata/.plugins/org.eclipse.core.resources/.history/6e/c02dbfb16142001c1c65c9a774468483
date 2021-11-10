@@ -4,7 +4,6 @@ import com.adam.adamsmod.AdamsMod;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -19,5 +18,7 @@ public class BlockInit {
 
 	public static final RegistryObject<Block> USA_ORE = BLOCKS
 			.register("usa_ore",
-					() -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
+					() -> new Block(AbstractBlock.Properties.create(Material.EARTH, MaterialColor.GRAY)
+							.hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(3)
+							.sound(SoundType.STONE)));
 }
