@@ -1,11 +1,17 @@
 { 
 	"item.adamsmod.usa_ingot": "USA Ingot",
+	"block.adamsmod.usa_ore": "USA Ore",
+	
 	"item.adamsmod.usa_sword": "USA Sword",
 	"item.adamsmod.usa_axe": "USA Axe",
 	"item.adamsmod.usa_pickaxe": "USA Pickaxe",
 	"item.adamsmod.usa_shovel": "USA Shovel",
 	"item.adamsmod.usa_hoe": "USA Hoe",
-	"block.adamsmod.usa_ore": "USA Ore",
+	
+	"item.adamsmod.usa_helmet": "USA Helmet",
+	"item.adamsmod.usa_chestplate": "USA Chestplate",
+	"item.adamsmod.usa_leggings": "USA Leggings",
+	"item.adamsmod.usa_boots": "USA Boots",
 	
 	"itemGroup.adams_mod": "Adam's Mod"
 }

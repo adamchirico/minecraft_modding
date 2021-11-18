@@ -1,9 +1,0 @@
-{ 
-	"type": "minecraft:smelting",
-	"ingredient": {
-		"item": "adamsmod:usa_ore"
-	},
-	"result": "adamsmod.usa_ingot",
-	"experience": 0.6,
-	"cookingtime": 100
-}

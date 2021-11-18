@@ -1,0 +1,59 @@
+package com.adam.adamsmod.common.material;
+
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.util.SoundEvent;
+
+public enum CustomArmorMaterial implements IArmorMaterial {
+	;
+
+	@Override
+	public int getDurability(EquipmentSlotType slotIn) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getDamageReductionAmount(EquipmentSlotType slotIn) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getEnchantability() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public SoundEvent getSoundEvent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Ingredient getRepairMaterial() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public float getToughness() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float getKnockbackResistance() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
