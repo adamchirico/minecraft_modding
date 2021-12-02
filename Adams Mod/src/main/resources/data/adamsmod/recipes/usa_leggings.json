@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"I I",
+		"I I"
+	],
+	"key": {
+		"I": {
+			"item": "adamsmod:usa_ingot"
+		}
+	},
+	"result": {
+		"item": "adamsmod:usa_leggings",
+		"count": 1
+	}
+}

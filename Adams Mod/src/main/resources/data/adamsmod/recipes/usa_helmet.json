@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"I I"
+	],
+	"key": {
+		"I": {
+			"item": "adamsmod:usa_ingot"
+		}
+	},
+	"result": {
+		"item": "adamsmod:usa_helmet",
+		"count": 1
+	}
+}
