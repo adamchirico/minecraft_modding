@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;Adams Mod&apos;&#x0D;&#x0A;- Original project: &apos;Adams Mod&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     baja_blast_freeze.png&#x0D;&#x0A;     beefy_five_layer_burrito.png&#x0D;&#x0A;     crunchy_taco.png" description="Delete elements" element1="src/main/resources/assets/adamsmod/models/item/beefy_five_layer_burrito.png" element2="src/main/resources/assets/adamsmod/models/item/crunchy_taco.png" element3="src/main/resources/assets/adamsmod/models/item/baja_blast_freeze.png" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1638943724268" subPackages="false" version="1.0"/>
+</session>

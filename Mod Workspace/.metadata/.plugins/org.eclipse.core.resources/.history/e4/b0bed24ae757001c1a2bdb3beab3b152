@@ -65,13 +65,13 @@ public class ItemInit {
 	// food
 	public static final RegistryObject<Item> CRUNCHY_TACO = ITEMS.register("crunchy_taco",
 			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
-					.food(new Food.Builder().hunger(5).saturation(6f).build())));
+					.food(new Food.Builder().hunger(4).saturation(1.2f).build())));
 
 	public static final RegistryObject<Item> BEEFY_FIVE_LAYER_BURRITO = ITEMS.register("beefy_five_layer_burrito",
 			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
-					.food(new Food.Builder().hunger(6).saturation(12.8f).build())));
+					.food(new Food.Builder().hunger(4).saturation(1.2f).build())));
 	
-	public static final RegistryObject<Item> BAJA_BLAST_FREEZE = ITEMS.register("baja_blast_freeze",
+	public static final RegistryObject<Item> BAJA_BLAST = ITEMS.register("baja_blast",
 			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
-					.food(new Food.Builder().hunger(4).saturation(6f).build())));
+					.food(new Food.Builder().hunger(4).saturation(1.2f).build())));
 }

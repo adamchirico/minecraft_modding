@@ -8,7 +8,6 @@ import com.adam.adamsmod.core.itemgroup.AdamsModItemGroup;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
-import net.minecraft.item.Food;
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
@@ -49,29 +48,16 @@ public class ItemInit {
 	public static final RegistryObject<Item> USA_HELMET = ITEMS.register("usa_helmet",
 			() -> new ArmorItem(USAArmorMaterial.USA_ARMOR, EquipmentSlotType.HEAD,
 					new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)));
-
+	
 	public static final RegistryObject<Item> USA_CHESTPLATE = ITEMS.register("usa_chestplate",
 			() -> new ArmorItem(USAArmorMaterial.USA_ARMOR, EquipmentSlotType.CHEST,
 					new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)));
-
+	
 	public static final RegistryObject<Item> USA_LEGGINGS = ITEMS.register("usa_leggings",
 			() -> new ArmorItem(USAArmorMaterial.USA_ARMOR, EquipmentSlotType.LEGS,
 					new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)));
-
+	
 	public static final RegistryObject<Item> USA_BOOTS = ITEMS.register("usa_boots",
 			() -> new ArmorItem(USAArmorMaterial.USA_ARMOR, EquipmentSlotType.FEET,
 					new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)));
-
-	// food
-	public static final RegistryObject<Item> CRUNCHY_TACO = ITEMS.register("crunchy_taco",
-			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
-					.food(new Food.Builder().hunger(5).saturation(6f).build())));
-
-	public static final RegistryObject<Item> BEEFY_FIVE_LAYER_BURRITO = ITEMS.register("beefy_five_layer_burrito",
-			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
-					.food(new Food.Builder().hunger(6).saturation(12.8f).build())));
-	
-	public static final RegistryObject<Item> BAJA_BLAST_FREEZE = ITEMS.register("baja_blast_freeze",
-			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
-					.food(new Food.Builder().hunger(4).saturation(6f).build())));
 }

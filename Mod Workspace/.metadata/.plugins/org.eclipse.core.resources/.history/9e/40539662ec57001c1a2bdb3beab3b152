@@ -71,7 +71,7 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
 					.food(new Food.Builder().hunger(6).saturation(12.8f).build())));
 	
-	public static final RegistryObject<Item> BAJA_BLAST_FREEZE = ITEMS.register("baja_blast_freeze",
+	public static final RegistryObject<Item> BAJA_BLAST = ITEMS.register("baja_blast",
 			() -> new Item(new Item.Properties().group(AdamsModItemGroup.ADAMS_MOD)
 					.food(new Food.Builder().hunger(4).saturation(6f).build())));
 }
