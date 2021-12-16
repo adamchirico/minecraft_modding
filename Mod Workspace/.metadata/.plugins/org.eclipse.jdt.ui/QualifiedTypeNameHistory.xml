@@ -36,4 +36,5 @@
 <fullyQualifiedTypeName name="com.adam.adamsmod.common.material.USAArmorMaterial"/>
 <fullyQualifiedTypeName name="net.minecraft.inventory.EquipmentSlotType"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ArmorItem"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Food"/>
 </qualifiedTypeNameHistroy>
